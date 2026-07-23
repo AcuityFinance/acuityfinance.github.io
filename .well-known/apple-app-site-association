@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAMID.io.github.acuityfinance",
+        "paths": [ "/callback.html", "/callback.html*" ]
+      }
+    ]
+  }
+}
