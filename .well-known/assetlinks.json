@@ -1,0 +1,26 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "io.github.acuityfinance",
+            "sha256_cert_fingerprints": [
+                "85:41:30:DE:A6:19:65:D8:1E:92:4D:21:78:32:F9:28:BD:B0:45:03:2D:55:0E:EB:28:B3:0B:19:7C:60:55:6A"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "io.github.acuityfinance.debug",
+            "sha256_cert_fingerprints": [
+                "85:41:30:DE:A6:19:65:D8:1E:92:4D:21:78:32:F9:28:BD:B0:45:03:2D:55:0E:EB:28:B3:0B:19:7C:60:55:6A"
+            ]
+        }
+    }
+]
