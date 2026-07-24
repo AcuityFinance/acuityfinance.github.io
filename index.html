@@ -45,78 +45,132 @@
     <div class="fixed inset-0 w-full h-full z-0 pointer-events-none flex items-center justify-center">
         <dotlottie-player src="./index.lottie" background="transparent" speed="1" style="width: 100%; height: 100%; object-fit: cover;" loop autoplay></dotlottie-player>
     </div>
-    <div class="glossy-panel rounded-3xl p-6 sm:p-10 max-w-3xl w-full mx-auto text-center relative z-10 overflow-hidden transition-all duration-300 hover:shadow-[0_12px_40px_0_rgba(147,51,234,0.3)] my-auto">
-        <div class="absolute -top-20 -right-20 w-40 h-40 bg-purple-400 rounded-full mix-blend-overlay filter blur-2xl opacity-60 pointer-events-none animate-pulse"></div>
-        <div class="absolute -bottom-20 -left-20 w-60 h-60 bg-purple-600 rounded-full mix-blend-overlay filter blur-2xl opacity-60 pointer-events-none animate-pulse" style="animation-delay: 1.5s;"></div>
+    <div class="glossy-panel rounded-2xl p-5 sm:p-6 max-w-xl w-full mx-auto text-center relative z-10 overflow-hidden transition-all duration-300 hover:shadow-[0_12px_40px_0_rgba(147,51,234,0.2)] my-auto">
+        <div class="absolute -top-20 -right-20 w-40 h-40 bg-purple-400 rounded-full mix-blend-overlay filter blur-2xl opacity-50 pointer-events-none animate-pulse"></div>
+        <div class="absolute -bottom-20 -left-20 w-60 h-60 bg-purple-600 rounded-full mix-blend-overlay filter blur-2xl opacity-50 pointer-events-none animate-pulse" style="animation-delay: 1.5s;"></div>
         <div class="relative z-20">
-            <div class="mx-auto flex items-center justify-center mb-6">
-                <img src="./icon.png" alt="Acuity Finance Icon" class="w-20 h-20 drop-shadow-[0_8px_16px_rgba(147,51,234,0.4)] object-contain">
+            <div class="mx-auto flex items-center justify-center mb-3">
+                <img src="./icon.png" alt="Acuity Finance Icon" class="w-12 h-12 drop-shadow-[0_4px_8px_rgba(147,51,234,0.4)] object-contain">
             </div>
-            <h1 class="text-3xl sm:text-4xl font-bold mb-2 tracking-tight text-white text-glow">Acuity Finance</h1>
-            <p class="text-purple-200 text-base sm:text-lg mb-8 leading-relaxed opacity-90 font-medium">
+            <h1 class="text-xl font-bold mb-0.5 tracking-tight text-white text-glow">Acuity Finance</h1>
+            <p class="text-purple-200 text-xs mb-4 leading-relaxed opacity-90">
                 Financial Acuity, Sharp Insights for Smarter Wealth
             </p>
 
-            <div class="text-left bg-black/30 rounded-2xl p-6 sm:p-8 backdrop-blur-md border border-white/10 mb-8 shadow-2xl">
-                <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                    <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <div class="text-left bg-black/30 rounded-xl p-4 backdrop-blur-sm border border-white/10 mb-4 shadow-xl">
+                <h2 class="text-sm font-semibold text-white mb-1.5 flex items-center gap-1.5">
+                    <svg class="w-3.5 h-3.5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     About the App
                 </h2>
-                <p class="text-gray-200 text-sm sm:text-base leading-relaxed mb-8">
-                    <strong>Acuity Finance</strong> is a comprehensive personal finance and budget management application designed to help you track your expenses, manage your savings, and gain crystal-clear insights into your financial health. Our purpose is to empower individuals to make smarter, data-driven financial decisions effortlessly.
+                <p class="text-gray-300 text-[11px] leading-relaxed mb-4">
+                    <strong>Acuity Finance</strong> is a comprehensive personal finance application designed to help you track expenses, manage savings, and gain crystal-clear insights into your financial health. Empowering you to make smarter decisions effortlessly.
                 </p>
 
-                <h3 class="text-lg font-bold text-white mb-5 flex items-center gap-2">
-                    <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                <h3 class="text-[13px] font-semibold text-white mb-2 flex items-center gap-1.5">
+                    <svg class="w-3.5 h-3.5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
                     Key Features
                 </h3>
-                <ul class="text-gray-200 text-sm sm:text-base leading-relaxed space-y-4 list-none">
-                    <li class="flex items-start gap-3">
-                        <div class="bg-purple-500/20 p-1.5 rounded-lg shrink-0 border border-purple-500/30">
-                            <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-gray-300 text-[11px] leading-relaxed list-none">
+                    <li class="flex items-start gap-2">
+                        <div class="bg-purple-500/20 p-1 rounded shrink-0 border border-purple-500/30 mt-0.5">
+                            <svg class="w-3 h-3 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </div>
                         <div>
-                            <strong class="text-white block mb-0.5">Smart Budgeting</strong>
-                            <span class="text-gray-300">Create and manage customized monthly budgets to stay on top of your finances.</span>
+                            <strong class="text-white block mb-0.5">AI Receipt Scanner</strong>
+                            Extract details from receipts using Gemini AI seamlessly.
                         </div>
                     </li>
-                    <li class="flex items-start gap-3">
-                        <div class="bg-purple-500/20 p-1.5 rounded-lg shrink-0 border border-purple-500/30">
-                            <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <li class="flex items-start gap-2">
+                        <div class="bg-purple-500/20 p-1 rounded shrink-0 border border-purple-500/30 mt-0.5">
+                            <svg class="w-3 h-3 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </div>
                         <div>
-                            <strong class="text-white block mb-0.5">Expense Tracking</strong>
-                            <span class="text-gray-300">Categorize and monitor your daily transactions to see exactly where your money goes.</span>
+                            <strong class="text-white block mb-0.5">Budgets & AI Analyzer</strong>
+                            Set spending limits and get actionable financial advice.
                         </div>
                     </li>
-                    <li class="flex items-start gap-3">
-                        <div class="bg-purple-500/20 p-1.5 rounded-lg shrink-0 border border-purple-500/30">
-                            <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <li class="flex items-start gap-2">
+                        <div class="bg-purple-500/20 p-1 rounded shrink-0 border border-purple-500/30 mt-0.5">
+                            <svg class="w-3 h-3 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </div>
                         <div>
-                            <strong class="text-white block mb-0.5">Financial Analytics</strong>
-                            <span class="text-gray-300">Visualize your spending patterns with beautiful, easy-to-understand charts.</span>
+                            <strong class="text-white block mb-0.5">Google Drive Sync</strong>
+                            Securely backup and restore multiple accounting databases.
                         </div>
                     </li>
-                    <li class="flex items-start gap-3">
-                        <div class="bg-purple-500/20 p-1.5 rounded-lg shrink-0 border border-purple-500/30">
-                            <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <li class="flex items-start gap-2">
+                        <div class="bg-purple-500/20 p-1 rounded shrink-0 border border-purple-500/30 mt-0.5">
+                            <svg class="w-3 h-3 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </div>
                         <div>
-                            <strong class="text-white block mb-0.5">Privacy First</strong>
-                            <span class="text-gray-300">Your financial data is securely stored locally on your device, ensuring complete privacy.</span>
+                            <strong class="text-white block mb-0.5">Debts & Receivables</strong>
+                            Keep accurate track of money you owe or is owed to you.
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <div class="bg-purple-500/20 p-1 rounded shrink-0 border border-purple-500/30 mt-0.5">
+                            <svg class="w-3 h-3 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-white block mb-0.5">Recurring Transactions</strong>
+                            Automate repeating financial activities like subscriptions.
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <div class="bg-purple-500/20 p-1 rounded shrink-0 border border-purple-500/30 mt-0.5">
+                            <svg class="w-3 h-3 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-white block mb-0.5">113k+ Category Icons</strong>
+                            Massive built-in library for highly customized categories.
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <div class="bg-purple-500/20 p-1 rounded shrink-0 border border-purple-500/30 mt-0.5">
+                            <svg class="w-3 h-3 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-white block mb-0.5">Multiple Wallets</strong>
+                            Manage cash, bank, and e-wallets seamlessly in one app.
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <div class="bg-purple-500/20 p-1 rounded shrink-0 border border-purple-500/30 mt-0.5">
+                            <svg class="w-3 h-3 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-white block mb-0.5">Calendar & Stats</strong>
+                            Visualize your daily cash flow and monthly reports easily.
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <div class="bg-purple-500/20 p-1 rounded shrink-0 border border-purple-500/30 mt-0.5">
+                            <svg class="w-3 h-3 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-white block mb-0.5">Local First Database</strong>
+                            Blazing fast offline performance via local Isar database.
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <div class="bg-purple-500/20 p-1 rounded shrink-0 border border-purple-500/30 mt-0.5">
+                            <svg class="w-3 h-3 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <div>
+                            <strong class="text-white block mb-0.5">Customizable UI</strong>
+                            Beautiful Dark & Light mode with custom accent colors.
                         </div>
                     </li>
                 </ul>
             </div>
 
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm">
-                <a href="./policy.en.html" class="px-6 py-3.5 w-full sm:w-auto rounded-xl bg-white/5 hover:bg-white/10 text-white font-medium transition-all border border-white/10 hover:border-purple-400/50 hover:shadow-[0_0_20px_rgba(147,51,234,0.3)] backdrop-blur-sm flex items-center justify-center gap-2">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-2">
+                <a href="./policy.en.html" class="px-3 py-1.5 w-full sm:w-auto rounded-md bg-white/5 hover:bg-white/10 text-white text-[10px] font-medium transition-all border border-white/10 hover:border-purple-400/50 hover:shadow-[0_0_10px_rgba(147,51,234,0.2)] backdrop-blur-sm flex items-center justify-center gap-1">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                     Privacy Policy
                 </a>
-                <a href="mailto:syifarahmat.id@gmail.com" class="px-6 py-3.5 w-full sm:w-auto rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-medium transition-all shadow-lg shadow-purple-900/50 hover:shadow-purple-500/50 flex items-center justify-center gap-2">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                <a href="mailto:syifarahmat.id@gmail.com" class="px-3 py-1.5 w-full sm:w-auto rounded-md bg-purple-600 hover:bg-purple-500 text-white text-[10px] font-medium transition-all shadow-sm shadow-purple-900/40 hover:shadow-purple-500/40 flex items-center justify-center gap-1">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                     Contact Support
                 </a>
             </div>
